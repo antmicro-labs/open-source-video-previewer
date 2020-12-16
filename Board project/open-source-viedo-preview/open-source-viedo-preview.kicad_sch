@@ -1,0 +1,81 @@
+(kicad_sch (version 20201015) (generator eeschema)
+
+  (page 1 2)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 103.2764 108.5596) (size 45.1104 39.878)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid b730802d-9d6d-43fe-b6ab-71910814cd57)
+    (property "Nazwa arkusza" "video_previewGPIO" (id 0) (at 103.2764 107.9237 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "video_previewGPIO.kicad_sch" (id 1) (at 103.2764 148.9465 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/bfa3109c-74a6-467f-9349-171995682947"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/509110fa-68dc-4a0c-9457-8e01a6637a37"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/eda6416f-27f9-4844-a0c9-1337101ec202"
+      (reference "#PWR03") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/e266f189-7163-4182-a260-d2e094cf18d0"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/cb7bd3ce-482e-4699-bc8c-34397f93e291"
+      (reference "#PWR05") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/ad6a9713-2347-49d2-931e-f61931162123"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/8d85e7d4-2f18-4f0f-ba8b-0f24d387fd15"
+      (reference "#PWR0102") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/03d92291-834c-46f6-959c-62e2dd3be9ab"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/96ff48db-662d-4c24-a5ae-a0fb3fe7e0f9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/4de35d08-ff35-40bc-8bf2-6129439c541b"
+      (reference "C1") (unit 1) (value "10n") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/e1db2a41-85ad-457d-9dac-46a10eae26dd"
+      (reference "D1") (unit 1) (value "Green LED") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/52f646bc-4dc9-4f08-8d4b-f132d285ff7b"
+      (reference "J1") (unit 1) (value "7499110124") (footprint "7499110124")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/24471f2f-0911-4257-becd-efe0680234da"
+      (reference "J?") (unit 1) (value "Conn_02x07_Odd_Even") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/50af4ba0-8c70-439c-afb7-b864ba5ef62f"
+      (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/a06c70fe-0048-4166-b48d-8f2ee58379d2"
+      (reference "R1") (unit 1) (value "220") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/6ff4299a-a324-41b2-97b3-6b75558218f8"
+      (reference "R2") (unit 1) (value "220") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/c97df461-cefe-44ac-b380-aed70289e332"
+      (reference "R3") (unit 1) (value "1k") (footprint "")
+    )
+  )
+)
