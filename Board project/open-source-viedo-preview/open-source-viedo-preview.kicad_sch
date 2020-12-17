@@ -41,17 +41,29 @@
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/cb7bd3ce-482e-4699-bc8c-34397f93e291"
       (reference "#PWR05") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/03d92291-834c-46f6-959c-62e2dd3be9ab"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/96ff48db-662d-4c24-a5ae-a0fb3fe7e0f9"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/98b1999e-0c2c-4ffb-bd15-84e62b020b2a"
+      (reference "#PWR08") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/cce6548a-6b8b-4e7d-ab93-4a56475727ad"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/06f262ba-18ba-4e93-a247-7a973c912c97"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/d55aa647-d037-4fa1-9d8c-aeb6b6dc231d"
+      (reference "#PWR011") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/ad6a9713-2347-49d2-931e-f61931162123"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/8d85e7d4-2f18-4f0f-ba8b-0f24d387fd15"
       (reference "#PWR0102") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/03d92291-834c-46f6-959c-62e2dd3be9ab"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/96ff48db-662d-4c24-a5ae-a0fb3fe7e0f9"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/4de35d08-ff35-40bc-8bf2-6129439c541b"
       (reference "C1") (unit 1) (value "10n") (footprint "")
@@ -63,7 +75,10 @@
       (reference "J1") (unit 1) (value "7499110124") (footprint "7499110124")
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/24471f2f-0911-4257-becd-efe0680234da"
-      (reference "J?") (unit 1) (value "Conn_02x07_Odd_Even") (footprint "")
+      (reference "J2") (unit 1) (value "Conn_02x07_Odd_Even") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/f6c1126e-54b8-46f7-8022-f16e670117f9"
+      (reference "J3") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "")
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/50af4ba0-8c70-439c-afb7-b864ba5ef62f"
       (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
