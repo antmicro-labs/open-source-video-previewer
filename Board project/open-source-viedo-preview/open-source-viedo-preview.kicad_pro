@@ -30,6 +30,7 @@
     "equivalence_files": []
   },
   "erc": {
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -278,12 +279,16 @@
   },
   "sheets": [
     [
-      "dd2d1f58-2ef8-4f70-a729-dafc035691f6",
+      "2bdd4987-2e69-47b2-b484-7df31768c717",
       ""
     ],
     [
       "b730802d-9d6d-43fe-b6ab-71910814cd57",
       "video_previewGPIO"
+    ],
+    [
+      "fbc78747-3566-4228-ab41-be6ba2cba6e4",
+      "video_preview_HighSpeed"
     ]
   ],
   "text_variables": {}

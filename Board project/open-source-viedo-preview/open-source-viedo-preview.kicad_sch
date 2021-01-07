@@ -1,28 +1,107 @@
 (kicad_sch (version 20201015) (generator eeschema)
 
-  (page 1 2)
-
   (paper "A4")
 
   (lib_symbols
   )
 
 
+  (wire (pts (xy 87.63 67.31) (xy 102.87 67.31))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 88.9 132.08) (xy 103.2764 132.08))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 109.22 88.9) (xy 109.22 108.5596))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 113.03 88.9) (xy 113.03 108.5596))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 121.92 88.9) (xy 121.92 108.5596))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 125.73 88.9) (xy 125.73 108.5596))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 148.59 127) (xy 166.37 127))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+
+  (label "nEXTRST" (at 88.9 132.08 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+  )
+  (label "+3.3V" (at 91.44 67.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+  )
+  (label "+3.3V" (at 160.02 127 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+  )
+
   (sheet (at 103.2764 108.5596) (size 45.1104 39.878)
     (stroke (width 0.001) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
     (uuid b730802d-9d6d-43fe-b6ab-71910814cd57)
-    (property "Nazwa arkusza" "video_previewGPIO" (id 0) (at 103.2764 107.9237 0)
+    (property "Nazwa arkusza" "video_previewGPIO" (id 0) (at 103.2764 151.1037 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "video_previewGPIO.kicad_sch" (id 1) (at 103.2764 148.9465 0)
+    (property "Sheet file" "video_previewGPIO.kicad_sch" (id 1) (at 103.2764 152.7565 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "GPIO_VREF" output (at 121.92 108.5596 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "GLOBAL_EN" input (at 103.2764 125.0696 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "CAM_GPIO" output (at 125.73 108.5596 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "nEXTRST" output (at 103.2764 132.08 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "SDA0" output (at 109.22 108.5596 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "SCL0" output (at 113.03 108.5596 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "+3.3V" output (at 148.3868 127 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+  )
+
+  (sheet (at 102.87 35.56) (size 45.72 53.34)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid fbc78747-3566-4228-ab41-be6ba2cba6e4)
+    (property "Nazwa arkusza" "video_preview_HighSpeed" (id 0) (at 102.87 32.3841 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "video_preview_HighSpeed.kicad_sch" (id 1) (at 102.87 33.5289 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "CAM_GPIO" input (at 125.73 88.9 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "SCL0" input (at 113.03 88.9 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "SDA0" input (at 109.22 88.9 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "GPIO_VREF" input (at 121.92 88.9 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "+3.3V" input (at 102.87 67.31 180)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
   )
 
   (sheet_instances
     (path "/" (page "1"))
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/" (page "2"))
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/" (page "3"))
   )
 
   (symbol_instances
@@ -38,17 +117,11 @@
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/e266f189-7163-4182-a260-d2e094cf18d0"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
-    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/cb7bd3ce-482e-4699-bc8c-34397f93e291"
-      (reference "#PWR05") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/03d92291-834c-46f6-959c-62e2dd3be9ab"
       (reference "#PWR06") (unit 1) (value "GND") (footprint "")
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/96ff48db-662d-4c24-a5ae-a0fb3fe7e0f9"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/98b1999e-0c2c-4ffb-bd15-84e62b020b2a"
-      (reference "#PWR08") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/cce6548a-6b8b-4e7d-ab93-4a56475727ad"
       (reference "#PWR09") (unit 1) (value "GND") (footprint "")
@@ -59,17 +132,26 @@
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/d55aa647-d037-4fa1-9d8c-aeb6b6dc231d"
       (reference "#PWR011") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/979bd904-748a-44c8-8d0c-2af4e5b58a0d"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/ae66d566-01b3-4561-a155-79c997fa6efb"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/1be4e34f-29ea-4e72-a6a9-63562c7f203a"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/ad6a9713-2347-49d2-931e-f61931162123"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/8d85e7d4-2f18-4f0f-ba8b-0f24d387fd15"
-      (reference "#PWR0102") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/4de35d08-ff35-40bc-8bf2-6129439c541b"
       (reference "C1") (unit 1) (value "10n") (footprint "")
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/e1db2a41-85ad-457d-9dac-46a10eae26dd"
       (reference "D1") (unit 1) (value "Green LED") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/d88a3934-0c45-46ed-9ff8-c9ce835c0285"
+      (reference "D2") (unit 1) (value "LED Red") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/52f646bc-4dc9-4f08-8d4b-f132d285ff7b"
       (reference "J1") (unit 1) (value "7499110124") (footprint "7499110124")
@@ -79,6 +161,12 @@
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/f6c1126e-54b8-46f7-8022-f16e670117f9"
       (reference "J3") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/87fd25a4-f4fa-4003-91b7-2873f9d0e853"
+      (reference "J4") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/0381caf2-0b92-4e63-97ce-b0bc94e34a8f"
+      (reference "J5") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/50af4ba0-8c70-439c-afb7-b864ba5ef62f"
       (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
@@ -91,6 +179,27 @@
     )
     (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/c97df461-cefe-44ac-b380-aed70289e332"
       (reference "R3") (unit 1) (value "1k") (footprint "")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/90efc3c5-de08-465e-b474-f1a62f5d9538"
+      (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/95c07a55-2795-4a61-b671-b32b4b65b768"
+      (reference "R5") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/ddc359fd-0e58-4a1b-a4be-b64e010bc66b"
+      (reference "R6") (unit 1) (value "nf") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/e6fc67f5-88fb-469d-bdc0-b62ffdc2c09a"
+      (reference "U1") (unit 1) (value "74LVC1G07") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering")
+    )
+    (path "/b730802d-9d6d-43fe-b6ab-71910814cd57/0f96da05-3d95-4795-96bc-ee3a95c8b6b9"
+      (reference "U2") (unit 1) (value "74LVC1G07") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/853b0d29-49e4-407d-9374-5eb6a88773b1"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/3e4a45d5-a332-4c81-96cf-e203419f8297"
+      (reference "J6") (unit 1) (value "Conn_01x22_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal")
     )
   )
 )
