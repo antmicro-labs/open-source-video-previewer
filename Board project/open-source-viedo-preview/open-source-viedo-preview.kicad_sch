@@ -1,4 +1,4 @@
-(kicad_sch (version 20201015) (generator eeschema)
+(kicad_sch (version 20210123) (generator eeschema)
 
   (paper "A4")
 
@@ -42,7 +42,7 @@
     (stroke (width 0.001) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
     (uuid b730802d-9d6d-43fe-b6ab-71910814cd57)
-    (property "Nazwa arkusza" "video_previewGPIO" (id 0) (at 103.2764 151.1037 0)
+    (property "Sheet name" "video_previewGPIO" (id 0) (at 103.2764 151.1037 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "video_previewGPIO.kicad_sch" (id 1) (at 103.2764 152.7565 0)
@@ -75,7 +75,7 @@
     (stroke (width 0.001) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
     (uuid fbc78747-3566-4228-ab41-be6ba2cba6e4)
-    (property "Nazwa arkusza" "video_preview_HighSpeed" (id 0) (at 102.87 32.3841 0)
+    (property "Sheet name" "video_preview_HighSpeed" (id 0) (at 102.87 32.3841 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "video_preview_HighSpeed.kicad_sch" (id 1) (at 102.87 33.5289 0)
@@ -198,8 +198,41 @@
     (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/853b0d29-49e4-407d-9374-5eb6a88773b1"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/1ec49284-5261-441a-a626-35e318d652a5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/be5fdb7d-b24e-484e-b5d4-80aafb5b90be"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/c3a44228-841f-4cc5-84fd-57f12d118090"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/e1ae4477-7f39-4ce4-9503-8ea7c9555537"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/f843f5e9-5dc8-43b4-88a5-5fcd86eeccc8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/7062d620-88d4-4d61-8af3-872e1ee459b6"
+      (reference "J5") (unit 1) (value "Conn_01x22_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal")
+    )
     (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/3e4a45d5-a332-4c81-96cf-e203419f8297"
       (reference "J6") (unit 1) (value "Conn_01x22_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/0bfc1df9-a38f-481b-9238-823cc7cfda8d"
+      (reference "J15") (unit 1) (value "Conn_01x22_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/7a49cbe5-57df-4abe-858c-3a23154dea5e"
+      (reference "J16") (unit 1) (value "Conn_01x22_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/a2ced6f8-b6d1-405c-b479-d8370e8a3c5f"
+      (reference "J?") (unit 1) (value "HDMI_A_1.4") (footprint "")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/c475752c-9120-493a-9592-5def8658efcb"
+      (reference "J?") (unit 1) (value "HDMI_A_1.4") (footprint "")
+    )
+    (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/22c4cf99-8600-4902-ae61-63031df570c3"
+      (reference "Module?") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
   )
 )
