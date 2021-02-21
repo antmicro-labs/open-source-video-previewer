@@ -372,20 +372,28 @@
   },
   "sheets": [
     [
-      "14230781-45c8-46d1-b7e0-456f48c44ab2",
-      ""
-    ],
-    [
       "fbc78747-3566-4228-ab41-be6ba2cba6e4",
-      "video_preview_HighSpeed"
+      ""
     ],
     [
       "b730802d-9d6d-43fe-b6ab-71910814cd57",
       "video_previewGPIO"
     ],
     [
+      "fbc78747-3566-4228-ab41-be6ba2cba6e4",
+      "video_preview_HighSpeed"
+    ],
+    [
       "ec8b7a00-3e1b-4677-a6d8-65d78fe124d9",
       "PSU"
+    ],
+    [
+      "67502ca5-70fb-445e-bf2e-f96e5ee81de8",
+      "pcie"
+    ],
+    [
+      "3bc35b30-a4dc-493c-b657-429c74155298",
+      "usb-otg"
     ]
   ],
   "text_variables": {}
