@@ -60,7 +60,7 @@
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_too_small": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "hole_clearance": "error",
@@ -68,9 +68,10 @@
         "invalid_outline": "error",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
+        "keepout": "error",
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
-        "microvia_drill_out_of_range": "error",
+        "microvia_drill_too_small": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
@@ -88,6 +89,7 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "via_hole_larger_than_pad": "error",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -372,28 +374,28 @@
   },
   "sheets": [
     [
-      "fbc78747-3566-4228-ab41-be6ba2cba6e4",
+      "8a5e40b7-451e-4e75-88b2-111d60276057",
       ""
-    ],
-    [
-      "b730802d-9d6d-43fe-b6ab-71910814cd57",
-      "video_previewGPIO"
     ],
     [
       "fbc78747-3566-4228-ab41-be6ba2cba6e4",
       "video_preview_HighSpeed"
     ],
     [
-      "ec8b7a00-3e1b-4677-a6d8-65d78fe124d9",
-      "PSU"
+      "b730802d-9d6d-43fe-b6ab-71910814cd57",
+      "video_previewGPIO"
+    ],
+    [
+      "3bc35b30-a4dc-493c-b657-429c74155298",
+      "usb-otg"
     ],
     [
       "67502ca5-70fb-445e-bf2e-f96e5ee81de8",
       "pcie"
     ],
     [
-      "3bc35b30-a4dc-493c-b657-429c74155298",
-      "usb-otg"
+      "ec8b7a00-3e1b-4677-a6d8-65d78fe124d9",
+      "PSU"
     ]
   ],
   "text_variables": {}
