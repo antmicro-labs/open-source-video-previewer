@@ -526,10 +526,10 @@
       (reference "J10") (unit 1) (value "Conn_01x22_Female") (footprint "Connector_FFC-FPC:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal")
     )
     (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/a2ced6f8-b6d1-405c-b479-d8370e8a3c5f"
-      (reference "J11") (unit 1) (value "HDMI_A_1.4") (footprint "")
+      (reference "J11") (unit 1) (value "HDMI_A_1.4") (footprint "Connector_HDMI:HDMI_Micro-D_Molex_46765-2x0x")
     )
     (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/c475752c-9120-493a-9592-5def8658efcb"
-      (reference "J12") (unit 1) (value "HDMI_A_1.4") (footprint "")
+      (reference "J12") (unit 1) (value "HDMI_A_1.4") (footprint "Connector_HDMI:HDMI_Micro-D_Molex_46765-2x0x")
     )
     (path "/fbc78747-3566-4228-ab41-be6ba2cba6e4/42211c08-26a3-4e99-b502-153af3fa9b00"
       (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
